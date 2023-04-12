@@ -1,7 +1,7 @@
 {
   "name": "@auscope/angular2parse",
-  "version": "2.0.4",
-  "description": "Fork of articode repo for Angular v13",
+  "version": "4.0.0",
+  "description": "Fork of articode repo for Angular v15",
   "bugs": {
     "url": "https://github.com/AuScope/angular2parse/issues"
   },
@@ -12,7 +12,7 @@
   },
   "homepage": "https://github.com/AuScope/angular2parse#readme",
   "peerDependencies": {
-    "@angular/common": "~13.3.11",
-    "@angular/core": "~13.3.11"
+    "@angular/common": "^15.2.6",
+    "@angular/core": "^15.2.6"
   }
 }
