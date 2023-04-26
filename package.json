@@ -15,7 +15,7 @@
     "ng": "ng",
     "build": "ng build",
     "build:prod": "ng build --configuration production",
-    "lib:publish": "npm run build:prod; cd dist/angular2parse; npm publish"
+    "lib:publish": "npm run build:prod && cd dist/angular2parse && npm publish"
   },
   "dependencies": {
     "@angular/common": "^15.2.6",
