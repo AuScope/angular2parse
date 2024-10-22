@@ -1,6 +1,6 @@
 {
   "name": "@auscope/angular2parse",
-  "version": "17.0.0",
+  "version": "18.0.0",
   "author": "Articode",
   "license": "MIT",
   "description": "Fork of articode repo for Angular v17",
@@ -19,24 +19,24 @@
     "lib:publish": "npm run build:prod && cd dist/angular2parse && npm publish"
   },
   "dependencies": {
-    "@angular/common": "^17.3.6",
-    "@angular/compiler": "^17.3.6",
-    "@angular/core": "^17.3.6",
-    "@angular/localize": "^17.3.6",
-    "@angular/platform-browser": "^17.3.6",
-    "@angular/platform-browser-dynamic": "^17.3.6",
+    "@angular/common": "^18.2.8",
+    "@angular/compiler": "^18.2.8",
+    "@angular/core": "^18.2.8",
+    "@angular/localize": "^18.2.8",
+    "@angular/platform-browser": "^18.2.8",
+    "@angular/platform-browser-dynamic": "^18.2.8",
     "rxjs": "~6.6.7",
     "tslib": "^2.4.1",
-    "zone.js": "~0.14.4"
+    "zone.js": "~0.14.10"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.3.6",
-    "@angular/cli": "^17.3.6",
-    "@angular/compiler-cli": "^17.3.6",
-    "@angular/language-service": "^17.3.6",
+    "@angular-devkit/build-angular": "^18.2.9",
+    "@angular/cli": "^18.2.9",
+    "@angular/compiler-cli": "^18.2.8",
+    "@angular/language-service": "^18.2.8",
     "@types/node": "^13.13.52",
     "codelyzer": "^6.0.2",
-    "ng-packagr": "^17.3.0",
+    "ng-packagr": "^18.2.1",
     "ts-node": "~8.10.2",
     "typescript": "~5.4.5"
   }

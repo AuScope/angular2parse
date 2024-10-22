@@ -1,5 +1,5 @@
 # angular2parse
-Parse util for angular expressions:  html string -> angular template (Angular v15) 
+Parse util for angular expressions:  html string -> angular template (Angular v18) 
 
 # install 
 `npm install angular2parse`
