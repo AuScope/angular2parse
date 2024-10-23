@@ -1,8 +1,8 @@
 {
   "name": "@auscope/angular2parse",
-  "version": "17.0.0",
+  "version": "18.0.0",
   "license": "MIT",
-  "description": "Fork of articode repo for Angular v17",
+  "description": "Fork of articode repo for Angular v18",
   "bugs": {
     "url": "https://github.com/AuScope/angular2parse/issues"
   },
@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/AuScope/angular2parse#readme",
   "peerDependencies": {
-    "@angular/common": "^17.3.6",
-    "@angular/core": "^17.3.6"
+    "@angular/common": "^18.2.8",
+    "@angular/core": "^18.2.8"
   }
 }
