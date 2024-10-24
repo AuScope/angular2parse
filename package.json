@@ -10,7 +10,7 @@
   "homepage": "https://github.com/AuScope/angular2parse#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AuScope/angular2parse.git"
+    "url": "git+https://github.com/AuScope/angular2parse.git"
   },
   "scripts": {
     "ng": "ng",
