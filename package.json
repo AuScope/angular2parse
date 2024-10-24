@@ -3,7 +3,7 @@
   "version": "18.0.0",
   "author": "Articode",
   "license": "MIT",
-  "description": "Fork of articode repo for Angular v17",
+  "description": "Fork of articode repo for Angular v18",
   "bugs": {
     "url": "https://github.com/AuScope/angular2parse/issues"
   },
@@ -35,7 +35,6 @@
     "@angular/compiler-cli": "^18.2.8",
     "@angular/language-service": "^18.2.8",
     "@types/node": "^13.13.52",
-    "codelyzer": "^6.0.2",
     "ng-packagr": "^18.2.1",
     "ts-node": "~8.10.2",
     "typescript": "~5.4.5"
