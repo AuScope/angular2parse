@@ -1,9 +1,9 @@
 {
   "name": "@auscope/angular2parse",
-  "version": "18.0.1",
+  "version": "19.0.1",
   "author": "Articode",
   "license": "MIT",
-  "description": "Fork of articode repo for Angular v18",
+  "description": "Fork of articode repo for Angular v19",
   "bugs": {
     "url": "https://github.com/AuScope/angular2parse/issues"
   },
