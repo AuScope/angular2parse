@@ -1,7 +1,7 @@
 # angular2parse
 Parse util for angular expressions:  html string -> angular template
 
-**This is a fork of Articode's [Angular Cesium](https://github.com/articodeltd/angular2parse), adapted for Angular v12 - v19**
+**This is a fork of Articode's [angular2parse](https://github.com/articodeltd/angular2parse), adapted for Angular v12 - v19**
 
 **Available from 'npmjs' https://www.npmjs.com/package/@auscope/angular2parse**
 
