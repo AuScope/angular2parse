@@ -1,5 +1,21 @@
 # angular2parse
-Parse util for angular expressions:  html string -> angular template (Angular v19) 
+Parse util for angular expressions:  html string -> angular template
+
+**This is a fork of Articode's [Angular Cesium](https://github.com/articodeltd/angular2parse), adapted for Angular v12 - v19**
+
+**Available from 'npmjs' https://www.npmjs.com/package/@auscope/angular2parse**
+
+| Angular Version | Branch      |
+|-----------------|-------------|
+| v19             | upgrade-v19 |
+| v18             | upgrade-v18 |
+| v17             | upgrade-v17 |
+| v16             | upgrade-v16 |
+| v15             | upgrade-v15 |
+| v14             | upgrade-v14 |
+| v13             | upgrade-v13 |
+| v12             | upgrade-v12 |
+
 
 # install 
 `npm install angular2parse`
