@@ -1,8 +1,8 @@
 {
   "name": "@auscope/angular2parse",
-  "version": "19.0.1",
+  "version": "20.0.2",
   "license": "MIT",
-  "description": "Fork of articode repo for Angular v19",
+  "description": "Fork of articode repo for Angular v20",
   "bugs": {
     "url": "https://github.com/AuScope/angular2parse/issues"
   },
@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/AuScope/angular2parse#readme",
   "peerDependencies": {
-    "@angular/common": "^19.2.11",
-    "@angular/core": "^19.2.11"
+    "@angular/common": "^20.1.6",
+    "@angular/core": "^20.1.6"
   }
 }
