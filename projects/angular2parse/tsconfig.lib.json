@@ -5,11 +5,7 @@
     "declarationMap": true,
     "declaration": true,
     "inlineSources": true,
-    "types": [],
-    "lib": [
-      "es2018",
-      "dom"
-    ]
+    "types": []
   },
   "angularCompilerOptions": {
     "skipTemplateCodegen": true,
