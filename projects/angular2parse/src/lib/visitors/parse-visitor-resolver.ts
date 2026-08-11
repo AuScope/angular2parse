@@ -114,7 +114,7 @@ export class ParseVisitorResolver extends RecursiveAstVisitor {
     }
 
     visitLiteralMap(ast: LiteralMap, context: any): any {
-        const result = {};
+        const result: any = {};
         const keys = ast.keys;
         const values = this.visitAll(ast.values, context);
 

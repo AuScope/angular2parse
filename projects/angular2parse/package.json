@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/AuScope/angular2parse#readme",
   "peerDependencies": {
-    "@angular/common": "^21.2.19",
-    "@angular/core": "^21.2.19"
+    "@angular/common": "^22.1.1",
+    "@angular/core": "^22.1.1"
   }
 }

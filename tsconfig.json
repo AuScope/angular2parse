@@ -1,8 +1,6 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "esModuleInterop": true,
     "declaration": false,
@@ -14,12 +12,6 @@
     "typeRoots": [
       "node_modules/@types"
     ],
-    "paths": {
-      "angular2parse": [
-        "dist/angular2parse/angular2parse",
-        "dist/angular2parse"
-      ]
-    },
     "useDefineForClassFields": false
   },
   "angularCompilerOptions": {

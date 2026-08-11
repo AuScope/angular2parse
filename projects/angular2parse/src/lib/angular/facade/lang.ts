@@ -33,11 +33,11 @@ export function getTypeNameForDebugging(type: any): string {
     return type['name'] || typeof type;
 }
 
-export function isPresent(obj: any): boolean {
+export function isPresent<T>(obj: T | null | undefined): obj is T {
     return obj != null;
 }
 
-export function isBlank(obj: any): boolean {
+export function isBlank(obj: unknown): obj is null | undefined {
     return obj == null;
 }
 
@@ -102,7 +102,7 @@ export function setValueOnPath(global: any, path: string, value: any) {
     const parts = path.split('.');
     let obj: any = global;
     while (parts.length > 1) {
-        const name = parts.shift();
+        const name = parts.shift()!;
         if (obj.hasOwnProperty(name) && obj[name] != null) {
             obj = obj[name];
         } else {
@@ -112,7 +112,7 @@ export function setValueOnPath(global: any, path: string, value: any) {
     if (obj === undefined || obj === null) {
         obj = {};
     }
-    obj[parts.shift()] = value;
+    obj[parts.shift()!] = value;
 }
 
 export function isPrimitive(obj: any): boolean {
