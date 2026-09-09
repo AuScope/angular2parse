@@ -89,10 +89,12 @@ export class Parser {
             .parseChain();
     }
 
-    private _parseQuote(input: string, location: any): AST {
+    private _parseQuote(input: string, location: any): AST | null {
         if (isBlank(input)) throw new Error('Quote expression cannot be blank');
         const prefixSeparatorIndex = input.indexOf(':');
-        if (prefixSeparatorIndex == -1) throw new Error('Quote expression requires a prefix');
+        if (prefixSeparatorIndex === -1) {
+            return null;
+        }
         const prefix = input.substring(0, prefixSeparatorIndex).trim();
         if (!isIdentifier(prefix)) throw new Error('Invalid quote prefix');
         const uninterpretedExpression = input.substring(prefixSeparatorIndex + 1);

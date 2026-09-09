@@ -35,10 +35,12 @@ export class Parse {
 
     const visitor = new ParseVisitorCompiler();
 
-    let ast: ASTWithSource = this._parser.parseInterpolation(expression, 'Parse');
-
-    if (!ast) {
-      ast = this._parser.parseBinding(expression, 'Parse');
+    let ast: ASTWithSource;
+    
+    try {
+        ast = this._parser.parseInterpolation(expression, 'Parse');
+    } catch {
+        ast = this._parser.parseBinding(expression, 'Parse');
     }
 
     const fnBody = ast.visit(visitor);
@@ -61,10 +63,13 @@ export class Parse {
 
     const visitor = new ParseVisitorResolver(this._pipesCache);
 
-    let ast: ASTWithSource = this._parser.parseInterpolation(expression, 'Parse');
+    let ast: ASTWithSource;
 
-    if (!ast) {
-      ast = this._parser.parseBinding(expression, 'Parse');
+    try {
+        ast = this._parser.parseInterpolation(expression, 'Parse');
+    } catch {
+        console.log('Calc fallback:', expression);
+        ast = this._parser.parseBinding(expression, 'Parse');
     }
 
     const calcParse = function calcParse(context: any): any {
