@@ -1,38 +1,42 @@
 {
-  "name": "angular2parse",
-  "version": "1.0.11",
+  "name": "@auscope/angular2parse",
+  "version": "22.0.0",
   "author": "Articode",
   "license": "MIT",
+  "description": "Fork of articode repo for Angular v22",
   "bugs": {
-    "url": "https://github.com/articodeltd/angular2parse/issues"
+    "url": "https://github.com/AuScope/angular2parse/issues"
   },
-  "homepage": "https://github.com/articodeltd/angular2parse#readme",
+  "homepage": "https://github.com/AuScope/angular2parse#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AuScope/angular2parse.git"
+  },
   "scripts": {
     "ng": "ng",
     "build": "ng build",
-    "build:prod": "ng build --prod",
-    "lib:publish": "npm run build:prod; cd dist/angular2parse; npm publish"
+    "build:prod": "ng build --configuration production",
+    "lib:publish": "npm run build:prod && cd dist/angular2parse && npm publish"
   },
   "dependencies": {
-    "@angular/common": "^11.0.1",
-    "@angular/compiler": "^11.0.2",
-    "@angular/core": "^11.0.2",
-    "@angular/platform-browser": "^11.0.2",
-    "@angular/platform-browser-dynamic": "^11.0.2",
-    "rxjs": "~6.5.4",
-    "tslib": "^1.10.0",
-    "zone.js": "~0.10.2"
+    "@angular/common": "^22.1.1",
+    "@angular/compiler": "^22.1.1",
+    "@angular/core": "^22.1.1",
+    "@angular/localize": "^22.1.1",
+    "@angular/platform-browser": "^22.1.1",
+    "@angular/platform-browser-dynamic": "^22.1.1",
+    "rxjs": "~6.6.7",
+    "tslib": "^2.4.1",
+    "zone.js": "~0.15.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.900.4",
-    "@angular-devkit/build-ng-packagr": "~0.900.4",
-    "@angular/cli": "~9.0.3",
-    "@angular/compiler-cli": "~9.0.2",
-    "@angular/language-service": "~9.0.2",
-    "@types/node": "^12.11.1",
-    "codelyzer": "^5.1.2",
-    "ng-packagr": "^9.0.0",
-    "ts-node": "~8.3.0",
-    "typescript": "~3.7.5"
+    "@angular/build": "^22.1.3",
+    "@angular/cli": "^22.1.3",
+    "@angular/compiler-cli": "^22.1.1",
+    "@angular/language-service": "^22.1.1",
+    "@types/node": "^26.2.0",
+    "ng-packagr": "^22.1.1",
+    "ts-node": "~8.10.2",
+    "typescript": "~6.0.3"
   }
 }

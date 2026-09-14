@@ -28,7 +28,7 @@ export class Parse {
     }
   }
 
-  eval(expression: string): Function {
+  eval(expression: string): Function | undefined {
     if (this._evalCache.has(expression)) {
       return this._evalCache.get(expression);
     }
@@ -56,7 +56,7 @@ export class Parse {
 
   calc(expression: string): Function {
     if (this._calcCache.has(expression)) {
-      return this._calcCache.get(expression);
+      return this._calcCache.get(expression)!;
     }
 
     const visitor = new ParseVisitorResolver(this._pipesCache);
