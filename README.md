@@ -1,12 +1,13 @@
 # angular2parse
 Parse util for angular expressions:  html string -> angular template
 
-**This is a fork of Articode's [angular2parse](https://github.com/articodeltd/angular2parse), adapted for Angular v12 - v20**
+**This is a fork of Articode's [angular2parse](https://github.com/articodeltd/angular2parse), adapted for Angular v12 - v22**
 
 **Available from 'npmjs' https://www.npmjs.com/package/@auscope/angular2parse**
 
 | Angular Version | Branch      |
 |-----------------|-------------|
+| v22             | upgrade-22  |
 | v20             | upgrade-v20 |
 | v19             | upgrade-v19 |
 | v18             | upgrade-v18 |
