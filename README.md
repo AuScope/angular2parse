@@ -8,15 +8,15 @@ Parse util for angular expressions:  html string -> angular template
 | Angular Version | Branch      |
 |-----------------|-------------|
 | v22             | upgrade-22  |
-| v20             | upgrade-v20 |
-| v19             | upgrade-v19 |
-| v18             | upgrade-v18 |
-| v17             | upgrade-v17 |
-| v16             | upgrade-v16 |
-| v15             | upgrade-v15 |
-| v14             | upgrade-v14 |
-| v13             | upgrade-v13 |
-| v12             | upgrade-v12 |
+| v20             | v20-upgrade |
+| v19             | v19-upgrade |
+| v18             | v18-upgrade |
+| v17             | v17-upgrade |
+| v16             | v16-upgrade |
+| v15             | v15-upgrade |
+| v14             | v14-upgrade |
+| v13             | v13-upgrade |
+| v12             | v12-upgrade |
 
 
 # install 
